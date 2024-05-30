@@ -1,0 +1,60 @@
+.inputModal{
+    padding: 30px;
+}
+
+/* Estilos para los inputs del modal */
+.inputContainer {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #607274;
+    padding: 20px;
+    z-index: 100;
+    margin-bottom: 1rem;
+}
+
+  
+  .labelModal {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputModal {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón de guardar */
+  .btn-guardar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  .btn-guardar:hover {
+    background-color: #043107;
+}
+  
+  /* Estilos para el botón de cancelar */
+  .btn-cancelar {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-cancelar:hover {
+    background-color: #3f0202;
+}
+  
